@@ -8,7 +8,7 @@
 #
 
 import requests
-import sys, os, re
+import sys, os
 from bs4 import BeautifulSoup
 
 os.system("clear")
@@ -20,7 +20,7 @@ if len(sys.argv) < 2:
    print("--------------------------------------")
    print("Usage: ./test.py example.com")
    print
-   print("---------------------------------------")
+   print("--------------------------------------")
    exit(1)
    
 domain = sys.argv[1]
